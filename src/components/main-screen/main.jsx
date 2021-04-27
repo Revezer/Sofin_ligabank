@@ -23,11 +23,11 @@ const Main = (props) => {
     const issuedCurrencyRef = useRef(null);
 
 
-    // useEffect(() => {
-    //     if (!isDataLoaded) {
-    //       onLoadData();
-    //     }
-    // }, [isDataLoaded]);
+    useEffect(() => {
+        if (!isDataLoaded) {
+          onLoadData();
+        }
+    }, [isDataLoaded]);
 
     const handleHave = (evt) => {
         const issuedCurrency = Math.round(parseFloat(evt.target.value / course.rates[selectedHave] * course.rates[selectedWant]) * 100) / 100;
