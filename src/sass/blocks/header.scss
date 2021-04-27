@@ -1,0 +1,76 @@
+.header {
+    background: #F6F7FF;
+}
+
+.header__conteiner {
+    width: 1170px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 91px;
+}
+  
+.header__list {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+  
+.header__title {
+    margin: 0px;
+    padding-left: 9px;
+    padding-top: 34px;
+    margin-right: 60px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 23px;
+}
+  
+.header__logo {
+    padding-right: 56px;
+    margin-left: -2px;
+    width: 153px;
+    height: 27px;
+    padding-top: 26px;
+}
+
+.list__element {
+    font-family: "Roboto";
+    padding-top: 36px;
+    padding-right: 25px;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+}
+
+.list__link {
+    text-decoration: none;
+    color: #1F1E25;
+}
+
+.list__link-active{
+    color: #2C36F2;
+}
+
+.header__login {
+    font-family: "Roboto";
+    padding-top: 36px;
+    margin-left: 157px;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+}
+
+.header__login::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../img/exit.svg");
+    width: 20px;
+    height: 22px;
+    right: 181.167px;
+    top: 34px;
+}

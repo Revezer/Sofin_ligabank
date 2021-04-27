@@ -1,0 +1,122 @@
+.footer {
+    background: #F6F7FF;
+}
+
+.footer__conteiner {
+    height: 224px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.footer__title {
+    margin: 0px;
+    padding-left: 9px;
+    margin-right: 58px;
+    font-family: "Roboto";
+    padding-top: 55px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+  
+.footer__logo {
+    height: 31px;
+    width: 147px;
+    padding-bottom: 11px;
+    padding-top: 47px;
+}
+
+.conteiner__logo {
+    display: flex;
+}
+
+.footer__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #707C87;
+    display: block;
+}
+
+.footer__text-number {
+    width: 167px;
+}
+
+.footer__text-address {
+    width: 252px;
+}
+
+.footer__text-urban {
+    width: 122px;
+}
+
+.footer__list {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.footer__list-services {
+    padding-left: 80px;
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 116px;
+}
+
+.footer-list__element {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.footer-list__link {
+    text-decoration: none;
+    color: #1F1E25;
+}
+
+.footer__number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #1F1E25;
+    text-decoration: none;
+}
+
+.footer__number-icon {
+    width: 10px;
+    position: absolute;
+    top: 60px;
+    left: 81px;
+}
+
+.footer__aside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 110px;
+    padding-top: 58px;
+    position: relative;
+}
+
+.footer__aside-urban {
+    padding-left: 114px;
+    padding-top: 57px;
+}
+
+.footer__list-social {
+    display: flex;
+    margin-top: 60px;
+    padding-left: 79px;
+    justify-content: space-between;
+    width: 103px;
+}
