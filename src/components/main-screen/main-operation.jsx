@@ -7,7 +7,7 @@ const Operation = (props) => {
         <div className="section-operation__conteiner">
             <span className="section-operation__text">{data.date}</span>
             <span className="section-operation__text">{data.acceptedCurrency}</span>
-            <span className="section-operation__text">{data.issuedCurrency}</span>
+            <span className="section-operation__text section-operation__text-arrow">{data.issuedCurrency}</span>
         </div>
     )
 }

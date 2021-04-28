@@ -89,12 +89,20 @@
     position: relative;
 }
 
-.section__date::before {
+.section__datepicker {
+    position: relative;
+}
+
+.section__datepicker::before {
+    background-image: url("../img/calendar.svg");
     content: "";
     display: block;
-    width: 39px;
-    height: 42px;
+    width: 41px;
+    height: 45px;
     position: absolute;
+    top: 90px;
+    z-index: 1;
+    left: 330px;
 }
 
 .section__button {
@@ -178,6 +186,21 @@
 .section-operation__text {
     font-family: "Roboto";
     font-size: 18px;
+}
+
+.section-operation__text-arrow {
+    position: relative;
+}
+
+.section-operation__text-arrow::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 16px;
+    background-image: url("../img/arrow.svg");
+    position: absolute;
+    right: 152px;
+    top: 2px;
 }
 
 .section-operation__conteiner {
